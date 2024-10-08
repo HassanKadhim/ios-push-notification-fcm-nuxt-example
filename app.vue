@@ -24,7 +24,7 @@ function requestPermission() {
 async function setToken() {
   const { $messaging } = useNuxtApp()
   const token = await getToken($messaging, {
-    vapidKey: "BHpaVB-sEF-InTeJdUcLMt7uUAgO3fnKJZZkCXWxPnvvY02Hobn9hX4P0j8DPj2-sX7x-Z0PWe40BbUwO35ftnY"
+    vapidKey: "BGfpMwguw9pw4KqZeGPyjm6QyN8OvD1fWWqLdYZCWvoj2SJxxvQoTBlguNbDHzcIHsxyI5nr_mai1mAhQ-EZHDQ"
   })
 
   // Send token to server, save in user schema
