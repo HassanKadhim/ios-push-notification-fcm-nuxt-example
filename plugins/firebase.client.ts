@@ -17,12 +17,12 @@ export default defineNuxtPlugin(() => {
   const app =
     getApps()[0] ??
     initializeApp({
-      apiKey: "AIzaSyAVdTEy-LuaPh_wmBnhOwnc7BOuARbPmrg",
-      authDomain: "pluto-1e8b6.firebaseapp.com",
-      projectId: "pluto-1e8b6",
-      storageBucket: "pluto-1e8b6.appspot.com",
-      messagingSenderId: "960588306318",
-      appId: "1:960588306318:web:2bf6c45a5252737d7436df"
+      apiKey: "AIzaSyBOAxdoXqLCrEa9p-AECFNz5ACD9uQCab0",
+      authDomain: "nestjsnotification-f80c6.firebaseapp.com",
+      projectId: "nestjsnotification-f80c6",
+      storageBucket: "nestjsnotification-f80c6.firebasestorage.app",
+      messagingSenderId: "1011334253244",
+      appId: "1:1011334253244:web:23348e91a01a9a781d1eb9"
     });
 
   const messaging = getMessaging(app)
